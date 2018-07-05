@@ -123,7 +123,6 @@
 </div>
 
 <div class="right-header">
-	<a class="imadon"><p>#imaDON</p></a>
 	<a target="_blank" href="http://shop.harveydontv.com"><p>SHOP</p></a>
 	<a target="_blank" href="https://goo.gl/forms/Si36l1Bt3bENSTXD3"><p>SUBMIT A TRACK</p></a> 
 	<a target="_blank" href=""><p>ABOUT</p></a>
@@ -149,16 +148,6 @@
 </div>
 
 <div class="right-footer"></div>
-
-<script type="text/javascript">
-	$('.imadon').click(function() {
-		$('.foreground').html('');
-		$('.title').html('');
-		$('body').append("<div class='sk-ww-instagram-hashtag-feed' data-embed-id='10630'></div>");
-		$('body').append("<script src='https://www.sociablekit.com/app/embed/instagram-hashtag-feed/widget.js'>");
-		$('body').css('overflow-y', 'scroll');
-	});
-</script>
 
 </body>
 </html>
